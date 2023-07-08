@@ -7,7 +7,7 @@
 
 header {
   height: 800px;
-  background: url("/images/banner/banner2.png") lightgray 50% / cover no-repeat;
+  background: url("./images/banner/banner2.png") lightgray 50% / cover no-repeat;
 }
 .header-text {
   width: 525px;
