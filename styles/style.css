@@ -44,10 +44,22 @@ header {
   border: none;
   padding: 20px;
   margin-top: 32px;
+  margin-right: -375px;
 }
-
+.about-photo {
+  margin-top: 139px;
+}
+.circle {
+  width: 527px;
+  height: 527px;
+  border-radius: 527.929px;
+  background: rgba(241, 91, 34, 0.2);
+}
 .about-picture {
-  width: 450px;
+  /* height: 900px; */
+  position: relative;
+  bottom: 198px;
+  right: 23px;
 }
 
 .about-text-description {
@@ -82,7 +94,7 @@ header {
 .about-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 134px;
   margin-top: 140px;
   margin-bottom: 130px;
@@ -191,6 +203,8 @@ footer {
   margin-bottom: 16px;
 }
 .social-logo {
+  display: flex;
+  gap: 20px;
   margin-top: 32px;
 }
 .footer-text2 {
